@@ -6,4 +6,4 @@ const totalBatteries = batteryBatches.reduce(function (total, batch) {
 } );
 
 // arrow function version
-const totalBatteriesArrow = batteryBatches.reduce((total, batch) => total + batch, 0);
+const totalBatteriesArrow = batteryBatches.reduce((total, batch) => total + batch);
